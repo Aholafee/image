@@ -95,7 +95,6 @@ let storage = new GridFsStorage({
         res.status(500).json({err: 'not an image'
         })
       }
-      // res.json(file)
     }) 
   })
 
