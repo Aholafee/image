@@ -16,7 +16,7 @@ app.use(cors())
 app.use(express.json())
 // app.use(methodOveride())
 
-const mongoURI = 'mongodb+srv://lanyoestate:lanyoestate@cluster0.t1bqj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const mongoURI = 'mongodb+srv://ahola:Kanefee1001@cluster0.yb7vk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
 const conn =  mongoose.createConnection(mongoURI)
 
